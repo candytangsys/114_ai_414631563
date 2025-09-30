@@ -1,13 +1,14 @@
 import java.util.Scanner;
 
-public class account {
-     private String name;
-    
-    public void setName(String name){
-        this.name = name;
+public class Account { //宣告一個類別
+     private String name; 
+     //設定變數只能在此類別內部存取(只能透過setName getName存取)
+     // 變數private，外部不能隨便更改、除錯可以只setName裡
+    public void setName(String name){ //設定帳戶
+        this.name = name; //this物件 參數name的值存到物件屬性
     }
     public String getName(){
-            return name;
+            return name; //回傳物件中的name
     }
 
     public static void main (String []args ){
@@ -24,4 +25,5 @@ public class account {
         System.out.printf("Name in object myAccount is :%n%s%n", myAccount.getName());
         input.close();
     }
+
 }
