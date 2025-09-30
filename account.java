@@ -1,3 +1,5 @@
+// https://blog.csdn.net/weixin_50321412/article/details/123362044
+
 import java.util.Scanner;
 
 public class Account { //宣告一個類別
@@ -27,3 +29,4 @@ public class Account { //宣告一個類別
     }
 
 }
+
